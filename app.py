@@ -1,6 +1,5 @@
 import streamlit as st
 import joblib
-import numpy as np
 import pandas as pd
 
 # ======================
@@ -8,7 +7,7 @@ import pandas as pd
 # ======================
 @st.cache_resource
 def load_model():
-    return joblib.load("ridge_pipeline.joblib")
+    return joblib.load("model_ridge_pipeline.joblib")  # sudah sesuai nama file
 
 model = load_model()
 
@@ -61,3 +60,4 @@ if submitted:
     st.balloons()  # 🎉 efek animasi
 
     st.info("Tip: Coba ubah jarak atau kondisi lalu lintas untuk lihat bagaimana ETA ikut berubah! 🚀")
+
