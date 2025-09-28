@@ -36,9 +36,9 @@ with st.form("prediction_form"):
     submitted = st.form_submit_button("✨ Prediksi ETA Sekarang")
 
 # Mapping kategorikal → sesuai pipeline
-traffic_map = {"Low": "low", "Medium": "medium", "High": "high"}
-weather_map = {"Clear": "clear", "Rainy": "rainy", "Storm": "storm", "Fog": "fog"}
-vehicle_map = {"Motor": "motorbike", "Mobil": "car"}
+traffic_map = {"Low": "Low", "Medium": "Medium", "High": "High"}
+weather_map = {"Clear": "Clear", "Rainy": "Rainy", "Storm": "Storm", "Fog": "Fog"}
+vehicle_map = {"Motor": "motorbike", "Mobil": "car","Scooter": "Scooter"}
 
 # Prediction
 if submitted:
