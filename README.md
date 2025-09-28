@@ -58,7 +58,7 @@ The main objectives are:
 ---
 
 ## 📈 Results
-- **Dataset Size:** ~560 deliveries  
+- **Dataset Size:** ~1000 deliveries  
 - **Best Model Performance:** Ridge Regression with MAE ≈ 5 minutes  
 - **Relative Error:** ~15–20% of average delivery time  
 - **Strongest Predictors:** Distance, Preparation Time, Traffic Level  
